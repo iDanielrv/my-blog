@@ -1,0 +1,32 @@
+
+
+<%- include("./partials/head.ejs") %>
+<%- include("./partials/nav.ejs") %>
+
+
+
+
+<h1>Esse aq é a update Page</h1>
+<h2>Titulo Atual:</h2>
+<h3> <%= blog.title %></h3>
+
+<h2>Texto atual:</h2>
+<h3> <%= blog.text %> </h3>
+
+
+<form action="/update/<%= blog.id %>" method="POST">
+    <label for="title">Novo Titulo:</label>
+    <input type="text" name="title" id="title">
+
+    <label for="text">Novo Texto:</label>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+    <button type="submit">Atualizar</button>
+</form>
+
+
+
+
+
+
+<%- include("./partials/footer.ejs") %>
+

@@ -1,0 +1,32 @@
+
+<%- include("./partials/head.ejs") %>
+<%- include("./partials/nav.ejs") %>
+
+
+
+
+<h1>Novo Post:</h1>
+
+<div class="createBlog">
+    <form action="/create" method="POST">
+
+        <label for="title">Titulo:</label>
+        <input type="text" id="title" name="title">
+
+        <label for="blogText">Text:</label>
+        <textarea name="blogText" id="blogText" cols="30" rows="10"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</div>
+
+
+
+
+
+
+
+
+<%- include("./partials/footer.ejs") %>
+

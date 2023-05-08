@@ -1,0 +1,36 @@
+
+<%- include("./partials/head.ejs") %>
+
+
+<%- include("./partials/nav.ejs") %>
+
+<h1>Blogs</h1>
+<hr class="currentPageDivision">
+
+<div class="blogs">
+    <% if(blogs.length > 0) %>
+    <% blogs.forEach(blog => { %>
+        <a href="/blog/<%= blog.id %>">
+            <h1 class="blogTitle"> <%=blog.title %> </h1>
+            <p> <%=blog.text %> </p>
+        </a>
+        <form action="/delete" method="POST">
+            <button type="submit" name="delete" value="<%=blog._id %>">Delete</button>
+        </form>
+
+<!--         <form action="/update" method="POST"> -->
+            
+            <a href="/update/<%= blog.id %>">
+                <button type="submit" name="update" value="<%=blog._id %>">Update</button>
+            </a>
+<!--         </form> -->
+        <% }) %>
+
+</div>
+
+<script>
+
+</script>
+
+
+<%- include("./partials/footer.ejs") %>
