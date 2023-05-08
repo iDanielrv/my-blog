@@ -1,5 +1,5 @@
-## todo-list
-Creating my first Fullstack Web Application 
+## Blog
+Creating my first Fullstack Web Application by myself
 
 
 ##  How To Use
