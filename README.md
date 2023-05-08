@@ -1,4 +1,4 @@
-## Blog
+## My-Blog
 Creating my first Fullstack Web Application by myself
 
 
@@ -11,7 +11,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/), [Nod
 $ git clone https://github.com/iDanielrv/todo-list.git
 
 # Go into the repository
-$ cd todo-list
+$ cd my-blog
 
 # Install dependencies
 $ npm install ou yarn install
