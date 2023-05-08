@@ -4,7 +4,7 @@ Creating my first Fullstack Web Application by myself
 
 ##  How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/) or [Yarn](https://yarnpkg.com/getting-started) installed on your computer. From your command line:
+From your command line:
 
 ```bash
 # Clone this repository
